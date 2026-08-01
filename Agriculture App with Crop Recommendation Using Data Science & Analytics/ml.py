@@ -3,7 +3,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.metrics import accuracy_score
 
-data = pd.read_csv('hii.csv')
+data = pd.read_csv('dataset.csv')
 
 print(data)
 
